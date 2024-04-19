@@ -195,7 +195,6 @@ a#tab.open {
 		display: block;
 		right: 10px;
 	}
-	
 }
 section .text {
 	transform: translateY(50px);
@@ -536,7 +535,6 @@ section .text span {
 	color: #ECE9E1;
 	border-radius: 25px;
 	transition: right 0.3s;
-	
 }
 .btn_top.active {
 	right: 16px;
@@ -578,7 +576,6 @@ section .text span {
 }
 #section4 .inner .content {
 	margin-top: 50px;
-	
 }
 #section4 .inner .content ul li a strong {
 	font-size: 1em;
@@ -694,7 +691,6 @@ section .text span {
 	#sub .inner .subtitle span {
 		font-size: 2em;
 	}
-
 }
 @media only screen and (max-width:860px) {
 	#sub .inner .subtitle h2 {
@@ -732,7 +728,6 @@ section .text span {
 	}
 }
 #sub1 {
-	/* padding: 0 0 120px 0; */
 	background-color: #ECE9E1;
 }
 #sub1 .content ul li {
@@ -1168,7 +1163,7 @@ section .text span {
 	}
 }
 #link {
-	padding: 100px 0 0 0; 
+	padding: 7.5em 0 0 0;
 	background-color:  #ECE9E1;
 }
 #link .link_inner {
@@ -1188,9 +1183,17 @@ section .text span {
 }
 @media only screen and (max-width: 1330px) {
 	#link {
-		padding: 150px 25px 0 25px;
+		padding: 7.5em 25px 0 25px;
 	}
-	
+}
+@media only screen and (max-width: 558px) {
+	#link .link_inner h1 {
+		margin-bottom: 0.2em;
+	}
+	#link .link_inner h1 span.new {
+		display: block;
+		margin-top: 1px;
+	}
 }
 @media only screen and (max-width: 490px) {
 	#link .link_inner h1 {
@@ -1206,11 +1209,11 @@ section {
 }
 #page1 .inner {
 	margin: 0 auto;
-	padding: 30px 0 200px;
+	padding: 1.2em 0 6em;
 	max-width: 1240px;
 }
 #page1 .prologue {
-	padding: 100px 0;
+	padding: 6em 0;
 	color: #E43C13;
 	display: flex;
 	justify-content: space-between;
@@ -1278,7 +1281,7 @@ section {
 	padding-left: 0;
 }
 #page1 .modal {
-	margin-top: 140px;
+	margin-top: 6em;
 	overflow: hidden;
 	border-radius: 10px;
 }
@@ -1291,7 +1294,7 @@ section {
 }
 #page1 .modal .title h1 {
 	text-align: right;
-	font-size: 3.5em;
+	font-size: 3rem;
 	color: #E43C13;
 	font-weight: 700;
 }
@@ -1307,14 +1310,10 @@ section {
 	}
 }
 @media only screen and (max-width: 930px) {
-	#page1 {
-		padding: 100px 25px;
-	}
 	#page1 .inner .prologue {
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
-		padding: 15vh 0;
 	}
 	#page1 .prologue .left,
 	#page1 .prologue .right {
@@ -1323,22 +1322,21 @@ section {
 	#page1 .prologue .right .desc p:nth-of-type(3) {
 		padding-top: 0;
 	}
-	#page1 .prologue .right .desc {
-		padding-top: 60px;
-	}
 }
 @media only screen and (max-width: 720px) {
-	#page1 .inner .prologue {
-		padding: 80px 0 150px;
-		max-width: 100%;
-	}
 	#page1 .inner .prologue .right .desc p:nth-of-type(3) span {
 		display: none;
 	}
-	#page1 .inner .prologue .modal {
-		margin-top: 100px;
-	}
 }
+@media only screen and (max-width: 490px) {
+	#page1 .prologue .left .title span {
+		padding-right: 10px;
+		font-size: 2.5rem;
+	}
+	#page1 .modal .title h1 {
+		font-size: 2.5rem;
+	}
+} 
 @media only screen and (max-width: 460px) {
 	#page1 .inner .prologue .title::after {
 		display: none;
@@ -1354,7 +1352,7 @@ section {
 	}
 }
 #page2 {
-	padding: 180px 0;
+	padding: 5em 0;
 	background-color: #E43C13;
 }
 #page3 .inner {
@@ -1456,7 +1454,7 @@ section {
 	}
 }
 #page3 {
-	padding: 180px 0;
+	padding: 5em 0;
 	background-color: #ECE9E1;
 }
 #page3 .inner .lower .color_style {
@@ -1586,6 +1584,9 @@ section {
 	}
 	#page4 .inner .title strong {
 		font-size: 4.5em;
+	}
+	#page4 br {
+		display: none;
 	}
 }
 @media only screen and (max-width: 460px) {
