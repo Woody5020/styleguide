@@ -1308,6 +1308,9 @@ section {
 		right: 10px;
 		bottom: -10px;
 	}
+	#page1 .modal {
+		margin-top: 3em;
+	}
 }
 @media only screen and (max-width: 930px) {
 	#page1 .inner .prologue {
@@ -1321,6 +1324,9 @@ section {
 	}
 	#page1 .prologue .right .desc p:nth-of-type(3) {
 		padding-top: 0;
+	}
+	#page1 .modal {
+		margin-top: 0;
 	}
 }
 @media only screen and (max-width: 720px) {
@@ -1458,7 +1464,7 @@ section {
 	background-color: #ECE9E1;
 }
 #page3 .inner .lower .color_style {
-	padding-top: 120px;
+	padding-top: 70px;
 
 }
 #page3 .inner .lower .color_style {
